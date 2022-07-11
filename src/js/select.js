@@ -116,7 +116,7 @@ function addReposListItem(name, owner, starCount) {
   delImg.setAttribute('alt', 'cart');
   delWrapper.addEventListener('click', (e) => {
     e.target.closest('.reposlist__item').remove();
-    document.querySelectorAll('.reposlist__item') ? document.querySelector('.reposlist').classList.remove('active') : null;
+    !document.querySelectorAll('.reposlist__item').length ? document.querySelector('.reposlist').classList.remove('active') : null;
   })
   delWrapper.appendChild(delImg);
 
