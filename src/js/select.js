@@ -198,7 +198,7 @@ class Select {
   }
 
   inputHandler(e) {
-    e.target.value ? this.getrepos(e.target.value) : null;
+    e.target.value ? this.getrepos(e.target.value) : document.querySelector('ul').innerHTML = '';;
   }
 
   debounce(fn, msec) {
