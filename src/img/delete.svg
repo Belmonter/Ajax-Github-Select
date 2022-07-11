@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="400" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Layer_1"  >
+<linearGradient id="SVGID_SVGID_1__2" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -256 -256)"  x1="-0.0000027" y1="256" x2="512" y2="256">
+<stop offset="0%" style="stop-color:rgb(246,121,80);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(241,90,41);stop-opacity: 1"/>
+</linearGradient>
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_SVGID_1__2); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="256" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Layer_1"  >
+<linearGradient id="SVGID_SVGID_2__3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  x1="42.6666641" y1="256.0005188" x2="469.3333435" y2="256.0005188">
+<stop offset="0%" style="stop-color:rgb(241,90,41);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(246,121,80);stop-opacity: 1"/>
+</linearGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_SVGID_2__3); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -256)" d="M 256 469.3338623 c -117.6314697 0 -213.3333435 -95.7023926 -213.3333435 -213.3333435 c 0 -117.6314545 95.7018661 -213.333313 213.3333435 -213.333313 c 117.636261 0 213.3333435 95.7018661 213.3333435 213.333313 C 469.3333435 373.6314697 373.636261 469.3338623 256 469.3338623 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 203.13 203.12)" id="Layer_1"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 0.3;"  transform=" translate(-264, -264)" d="M 381.4981384 174.610672 h -45.6714783 v -21.6021423 c 0 -4.9701233 -4.0287781 -8.9983978 -8.9989319 -8.9983978 H 201.1704559 c -4.9700775 0 -8.9992065 4.0282745 -8.9992065 8.9983978 v 21.6021423 h -45.6693878 v 9.9989319 h 20.962677 l 22.7453766 183.5509186 c 1.1203766 9.0400085 8.801712 15.8288269 17.9104004 15.8288269 h 111.7570038 c 9.1093445 0 16.7904053 -6.7888184 17.9109497 -15.8288269 l 22.7456055 -183.5509186 h 20.9642639 V 174.610672 z M 221.0897064 351.9584045 l -9.9256592 -129.5248108 l 9.9696655 -0.7615967 l 9.9261322 129.5248108 L 221.0897064 351.9584045 z M 268.9985657 351.5776062 h -9.9991455 V 222.0527954 h 9.9991455 V 351.5776062 z M 306.9077454 351.9584045 l -9.9701538 -0.7615967 l 9.9264221 -129.5248108 l 9.969574 0.7615967 L 306.9077454 351.9584045 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 200 200)" id="Layer_1"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-256, -256)" d="M 373.4981384 166.610672 h -45.6714783 v -21.6021423 c 0 -4.9701233 -4.0287781 -8.9983978 -8.9989319 -8.9983978 H 193.1704559 c -4.9700775 0 -8.9992523 4.0282745 -8.9992523 8.9983978 v 21.6021423 h -45.669342 v 9.9989319 h 20.962677 l 22.7455902 183.5509186 c 1.1200104 9.0400085 8.8014984 15.8288269 17.9101868 15.8288269 h 111.7570038 c 9.1093445 0 16.7904053 -6.7888184 17.9109497 -15.8288269 l 22.7456055 -183.5509186 h 20.9642639 V 166.610672 z M 213.0897064 343.9584045 l -9.9256592 -129.5248108 l 9.9696655 -0.7615967 l 9.9261322 129.5248108 L 213.0897064 343.9584045 z M 260.9985657 343.5776062 h -9.9991455 V 214.0527954 h 9.9991455 V 343.5776062 z M 298.9077454 343.9584045 l -9.9700928 -0.7615967 l 9.9263611 -129.5248108 l 9.969574 0.7615967 L 298.9077454 343.9584045 z" stroke-linecap="round" />
+</g>
+</svg>

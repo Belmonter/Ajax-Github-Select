@@ -1,0 +1,247 @@
+.app {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app__container {
+  width: 500px;
+  padding-bottom: 100px;
+}
+
+.sel {
+  width: 100%;
+  position: relative;
+}
+
+.sel.open .sel__dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sel.open .sel__inp {
+  border-bottom: none;
+}
+
+.sel__inp {
+  padding: 5px 10px 5px 10px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #c80b0b;
+  border-radius: 8px;
+}
+
+.sel__dropdown {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  min-height: 50px;
+  max-height: 250px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #c80b0b;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  z-index: 5;
+}
+
+.sel__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sel__item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  padding: 8px;
+  border-bottom: 1px solid #c80b0b;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.sel__item:hover {
+  background-color: #c80b0b;
+  color: #fff;
+}
+
+.sel__avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sel__owner {
+  margin-top: 5px;
+}
+
+.input {
+  display: block;
+  border: none;
+  background-color: inherit;
+  width: 90%;
+  height: 100%;
+  outline: none;
+}
+
+.reposlist {
+  margin-top: 35px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.reposlist.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reposlist__title {
+  margin-top: 255px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.reposlist__wrapper {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.reposlist__item {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #c80b0b;
+  border-radius: 8px;
+}
+
+.reposlist__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.reposlist__name {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  line-height: 13px;
+}
+
+.reposlist__name img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reposlist__name__text {
+  width: 150px;
+  text-align: left;
+}
+
+.reposlist__owner {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  line-height: 13px;
+  margin-top: 5px;
+}
+
+.reposlist__owner img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reposlist__owner__text {
+  width: 150px;
+  text-align: left;
+}
+
+.reposlist__stars {
+  width: 200px;
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.reposlist__icon img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.reposlist__count {
+  width: 150px;
+  text-align: left;
+}
+
+.reposlist__del {
+  cursor: pointer;
+}
+
+.reposlist__del img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=style.css.map */
